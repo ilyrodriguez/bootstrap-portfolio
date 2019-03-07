@@ -1,0 +1,153 @@
+body {
+    background: rgb(29, 188, 190);
+}
+
+h1 {
+    color: midnightblue;
+    font-size: 3rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.navbar {
+    background: none !important;
+    font-size: 1.6rem;   
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: midnightblue !important;
+    padding: 10px 0 50px
+}
+
+.nav>li>a {
+    color: midnightblue;
+}
+
+a:hover {
+	color: antiquewhite !important;
+  }
+
+.container {
+    width: 960px;
+    clear: both;
+    margin: 0 auto 20px auto;
+}
+
+
+h2 {
+    color: antiquewhite;
+    font-family: 'Wire One', sans-serif;
+    line-height: .6rem !important;
+    margin-inline-start: 0;
+}
+
+h3 {
+    color: antiquewhite;
+    font-family: 'Wire One', sans-serif;
+    line-height: .6rem !important;
+    margin-inline-start: 21.7rem;
+    font-size: 4rem !important;
+    margin-inline-start: 6.7rem;
+}
+
+h4 {
+    color: antiquewhite;
+    font-family: 'Wire One', sans-serif;
+    line-height: .6rem !important;
+    margin-inline-start: 8rem;
+    margin-bottom: 3rem;
+}
+
+h6 {
+    color: antiquewhite;
+    font-family: 'Wire One', sans-serif;
+    margin-inline-start: 0;
+}
+
+img {
+    float: left;
+    border: solid midnightblue .1rem;
+    padding: 4px;
+}
+
+p {
+	font-size: 1.1em;
+	line-height: 1.6em;
+    color: midnightblue;
+    font-family: 'Oswald', sans-serif;
+    margin-inline-start: 10rem;
+}
+
+h5 {
+    float: left;
+}
+
+img {
+    float: center;
+}
+
+.card {
+    background: none;
+    border: none;
+    margin-top: 3rem;
+}
+
+form {
+    margin: 10px 0 100px 0;
+
+}
+
+.contact {
+    width: 940px;
+}
+
+.contact input, .contact textarea {
+    background: none;
+    border: solid 1px midnightblue;
+    width: 100%
+}
+
+.contact input[type="submit"] {
+	width: auto;
+    background-color: none;
+    border: solid 1px midnightblue;
+	color: midnightblue;
+	padding: 10px 12px;
+    font-size: 15px;
+}
+
+
+footer {
+    position: fixed;
+    background: rgb(29, 188, 190);
+    color: midnightblue;
+    left: 0;
+	bottom: 0;
+	width: 100%;
+    padding: 30px;
+    font-size: 12px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
