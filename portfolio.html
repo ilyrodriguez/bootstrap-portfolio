@@ -1,102 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Ileana Mandigo</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- Google fonts-->    
-<link href="https://fonts.googleapis.com/css?family=Wire+One" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
 
-<!-- Styles -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/stylebstrap.css">
+<head>
+  <title>Ileana Mandigo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Wire+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/stylebstrap.css">
 </head>
 
 <body>
-<div class="container">
+  <div class="container">
     <!-- NAV -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html"><h1>Ileana Mandigo</h1></a>
+      <a class="navbar-brand" href="index.html">
+        <h1>Ileana Mandigo</h1>
+      </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
 
-              <ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <div class="main">
 
-        <!-- HEADER -->
-        <h6 class="display-4">Portfolio</h6>
+      <!-- HEADER -->
+      <h6 class="display-4">Portfolio</h6>
 
-        <!--Content-->
-        <div class="card-deck">
-            <div class="card">
-                <a href="https://ilyrodriguez.github.io/Word-guess-game/" target="blank"><img src="./images/psychicgame.PNG" class="card-img-top" alt="psychic game"></a>
-              <div class="card-body">
-                <h5 class="card-title">Psychic Game</h5>
+      <!--Content-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="card" style="width: 18rem;">
+              <a href="https://ilyrodriguez.github.io/Word-guess-game/" target="blank"><img
+                  src="./images/psychicgame.PNG" class="card-img-top" alt="psychic game"></a>
+              <div class="card-body" style="background-color:antiquewhite; color: midnightblue;">
+                <h5 class="card-text">Psychic Game</h5>
               </div>
             </div>
-            <div class="card">
-                <a href="https://ilyrodriguez.github.io/unit-4-game/" target="blank"><img src="./images/RPG.PNG" class="card-img-top" alt="RPG"></a>
-              <div class="card-body">
-                <h5 class="card-title">RPG</h5>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="card" style="width: 18rem;">
+              <a href="https://ilyrodriguez.github.io/unit-4-game/" target="blank"><img src="./images/matrix.png"
+                  class="card-img-top" alt="RPG"></a>
+              <div class="card-body" style="background-color: antiquewhite; color: midnightblue;">
+                <h5 class="card-text">RPG</h5>
               </div>
             </div>
-            <div class="card">
-              <a href="https://ilyrodriguez.github.io/triviaGame/" target="blank"><img src="./images/GOTtrivia.PNG" class="card-img-top" alt="Trivia"></a>
-              <div class="card-body">
-                <h5 class="card-title">Trivia</h5>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="card" style="width: 18rem;">
+              <a href="https://ilyrodriguez.github.io/triviaGame/" target="blank"><img src="./images/trivia.PNG"
+                  class="card-img-top" alt="Trivia"></a>
+              <div class="card-body" style="background-color:antiquewhite; color: midnightblue;">
+                <h5 class="card-text">Trivia</h5>
               </div>
             </div>
-                <div class="card">
-                  <a href="https://ilyrodriguez.github.io/Giftastic/" target="blank"><img src="./images/giftastic.PNG" class="card-img-top" alt="Giftastic"></a>
-                    <div class="card-body">
-                      <h5 class="card-title">Giftastic</h5>
-                    </div>
-                </div>
-                  <div class="card">
-                      <a href="https://ilyrodriguez.github.io/Train-Scheduler/." target="blank"><img src="./images/Train-scheduler.jpg" class="card-img-top" alt="Train Scheduler"></a>
-                    <div class="card-body">
-                      <h5 class="card-title">Train Scheduler</h5>
-                    </div>
-                  </div>
-                  <div class="card">
-                      <a href="https://the-knights-of-the-round-table.github.io/GifTunes/" target="blank"><img src="./images/giftunes.png" class="card-img-top" alt="Giftunes"></a>
-                    <div class="card-body">
-                      <h5 class="card-title">Project-1 Giftunes</h5>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <a href="https://github.com/ilyrodriguez/Liri-Node-App" target="blank"><img src="./images/rpggame.jpg" class="card-img-top" alt="Liri-Node-App"></a>
-                  <div class="card-body">
-                    <h5 class="card-title">Liri-Node-App</h5>
-                  </div>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="card" style="width: 18rem;">
+              <a href="https://ilyrodriguez.github.io/Giftastic/" target="blank"><img src="./images/giftastic.PNG"
+                  class="card-img-top" alt="Giftastic"></a>
+              <div class="card-body" style="background-color:antiquewhite; color: midnightblue;">
+                <h5 class="card-text">Giftastic</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="card" style="width: 18rem;">
+              <a href="https://ilyrodriguez.github.io/Train-Scheduler/." target="blank"><img
+                  src="./images/Train-scheduler.png" class="card-img-top" alt="Train Scheduler"></a>
+              <div class="card-body" style="background-color:antiquewhite; color: midnightblue;">
+                <h5 class="card-text">Train Scheduler</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="card" style="width: 18rem;">
+              <a href="https://the-knights-of-the-round-table.github.io/GifTunes/" target="blank"><img
+                  src="./images/giftunes.png" class="card-img-top" alt="Giftunes"></a>
+              <div class="card-body" style="background-color:antiquewhite; color: midnightblue;">
+                <h5 class="card-text">Project-1 Giftunes</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="card" style="width: 18rem;">
+              <a href="https://github.com/ilyrodriguez/Liri-Node-App" target="blank"><img src="./images/liri.png"
+                  class="card-img-top" alt="Liri-Node-App"></a>
+              <div class="card-body" style="background-color:antiquewhite; color: midnightblue;">
+                <h5 class="card-text">Liri-Node-App</h5>
+              </div>
+            </div>
+            <div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+              <div class="card" style="width: 18rem;">
+                <a href="https://github.com/ilyrodriguez/bamazon" target="blank"><img src="./images/bamazon.png"
+                    class="card-img-top" alt="Bamazon"></a>
+                <div class="card-body" style="background-color:antiquewhite; color: midnightblue;">
+                  <h5 class="card-text">Bamazon</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
-    <!-- FOOTER -->
-    <footer>
-        copyright&copy; 2019 Ily M.
-    </footer>
-    
+  <!-- FOOTER -->
+  <footer>
+    copyright&copy; 2019 Ily M.
+  </footer>
+
 </body>
+
 </html>
