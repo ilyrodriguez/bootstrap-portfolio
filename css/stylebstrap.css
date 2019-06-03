@@ -125,17 +125,28 @@ form {
 
 footer {
     position: fixed;
-    background: rgb(29, 188, 190);
+    /* background: rgb(29, 188, 190); */
     color: midnightblue;
     left: 0;
 	bottom: 0;
 	width: 100%;
-    padding: 30px;
-    font-size: 12px;
-	text-align: center;
+    padding: 12px;
+
+}
+.fab{
+    font-size: 40px;
+    margin-left: 20px;
 }
 
-
+.fa-github-square{
+    margin-left: 100px;
+}
+.foot{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    float: right;
+    margin-right: 100px;
+}
 
 
 
