@@ -97,7 +97,9 @@ img {
     border: none;
     margin-top: 3rem;
 }
-
+.card:hover{
+    transform: scale(1.1);
+}
 form {
     margin: 10px 0 100px 0;
 
@@ -138,6 +140,9 @@ footer {
     margin-left: 20px;
     color: midnightblue;
 }
+.fab:hover {
+	color: antiquewhite !important;
+  }
 
 .fa-github-square{
     margin-left: 100px;
